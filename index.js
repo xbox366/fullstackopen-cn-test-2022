@@ -49,7 +49,7 @@ app.delete('/api/notes/:id',(resquest,response)=>{
     const id = Number(request.params.id)
     notes = notes.filter(note => note.id !== id)
     response.status(204).end()
-  })
+  }) 优化了删除和提交
   app.post('/api/notes',(request,response)=>{
       const maxId = notes.length>0?Math.max(...notes.map(n=>n.id)):0
       const note = request.body
