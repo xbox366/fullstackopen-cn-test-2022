@@ -1,7 +1,7 @@
 const express = require("express");
 const request = require("request");
-const appid = "";
-const appsecret = "";
+const appid = "wx29e796b1b9d6e916";
+const appsecret = "472acf55cc67f8fb76e00a60b6f3fbd7";
 const tokenUrl =
   "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" +
   appid +
@@ -31,7 +31,7 @@ function getToken(getUrl) {
           "content-type": "application/json",
         },
         body: {
-          env: "beertap-",
+          env: "beertap-5gcan46xae0b7bca",
           query:
             "db.collection(\"tapinfo_nanx\").where({'tapid':_.lt(20)}).orderBy('tapid', 'asc').limit(20).get()",
         },
