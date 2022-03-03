@@ -1,16 +1,6 @@
 
-html{
-    background-color: black;
-    color: azure;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
-head{
-    height:10%;
-}
+
 body{
     height: 100%;
 }
@@ -18,19 +8,20 @@ p{
     padding: 0;
     margin: 0;
 }
-
+.rootStart{
+    height: 100%;
+    width: 100%;
+}
+.menuBody{
+    height: 90%;
+    width: 100%;
+}
 .beerMenu{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 70%;
+    height: 90%;
     margin: 15px 0px 15px 0;
-}
-.menuFooter{
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
 }
 .leftPart{
     width: 49%;
@@ -43,6 +34,7 @@ p{
 .logo{
     display: flex;
     justify-content: center;
+    height: 20%;
 }
 .logoImg{
     height: 150px;
@@ -79,10 +71,10 @@ p{
     margin: 2px 5px;
 }
 .cnName{
-    font-size: 30px;
+    font-size: 40px;
 }
 .enName{
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .sellInfo{
@@ -95,12 +87,12 @@ p{
     margin-right: 10px;
 }
 .sellPrice{
-    font-size: 30px;
+    font-size: 40px;
     text-align: right;
     border-bottom: white 1px solid;
 }
 .sellVol{
-    font-size: 15px;
+    font-size: 25px;
     text-align: right;
 }
 .beerAb{
@@ -109,23 +101,11 @@ p{
 }
 .beerAb p{
     margin: 0 20px 0 0;
-    font-size: 16px;
+    font-size: 18px;
 }
-.slogan{
-    width: 60%;
-    height: 100%;
-}
-.slogan p{
-    font-size:40px;
-}
+
 .middleLine{
     width: 2%;
     border-left: white 1px solid;
     height: 88%;
-}
-.imageAd{
-    height: 150px;
-    position: absolute;
-    bottom: 30px;
-    right: 100px;
 }
